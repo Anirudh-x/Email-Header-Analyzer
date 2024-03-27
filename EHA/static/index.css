@@ -1,0 +1,28 @@
+body {
+    background-color: #ffffff;
+    color: #333333;
+    font-family: Arial, sans-serif;
+}
+.container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+label {
+    color: #333333;
+}
+textarea, .form-control {
+    background-color: #f3f3f3;
+    color: #333333;
+    border-color: #cccccc;
+}
+.btn-primary {
+    background-color: #333333;
+    border-color: #333333;
+}
+.btn-primary:hover {
+    background-color: #222222;
+    border-color: #222222;
+}

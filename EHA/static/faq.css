@@ -1,0 +1,35 @@
+/* FAQ Section Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FFFFFF; /* White background */
+    color: #333333; /* Charcoal Gray text color */
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.faq-section {
+    margin-top: 50px;
+}
+
+.faq-item {
+    margin-bottom: 20px;
+}
+
+.faq-question {
+    font-weight: bold;
+    margin-bottom: 10px;
+    cursor: pointer;
+    color: #333333; /* Charcoal Gray question text color */
+}
+
+.faq-answer {
+    display: none;
+    color: #666666; /* Light Gray answer text color */
+}
+
+.faq-answer.show {
+    display: block;
+}

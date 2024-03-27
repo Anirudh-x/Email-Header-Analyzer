@@ -1,0 +1,47 @@
+body {
+    background-color: #ffffff;
+    color: #333333;
+    font-family: Arial, sans-serif;
+}
+.container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h2 {
+    color: #333333;
+    margin-top: 20px;
+}
+table {
+    background-color: #f3f3f3;
+    color: #333333;
+    border-radius: 5px;
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td {
+    padding: 10px;
+    border-bottom: 1px solid #cccccc;
+}
+th {
+    background-color: #333333;
+    color: #ffffff;
+    text-align: left;
+}
+a {
+    color: #333333;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+.analysis-safe {
+    color: green; /* Green color for safe analysis result */
+    font-weight: bold;
+}
+.analysis-harmful {
+    color: red; /* Red color for potential harmful analysis result */
+    font-weight: bold;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Header Analyzer</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/static/faq.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+</head>
+<body>
+    <div class="container mt-5">
+        <h1>Email Header Analyzer</h1>
+
+        <!-- FAQ Section -->
+        <div class="faq-section">
+            <h2>Frequently Asked Questions</h2>
+            <div class="faq-item">
+                <div class="faq-question" onclick="toggleAnswer(this)">What is an email header?</div>
+                <div class="faq-answer">An email header contains information about the sender, recipient, subject, and other metadata related to an email message.</div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question" onclick="toggleAnswer(this)">How do I find email headers?</div>
+                <div class="faq-answer">Email headers can usually be found in the settings or options menu of your email client. Look for an option to view the full message headers.</div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question" onclick="toggleAnswer(this)">What is an email header analyzer?</div>
+                <div class="faq-answer">An email header analyzer is a tool or service that allows users to inspect the header section of an email to gather information about its origin, path, and delivery.</div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question" onclick="toggleAnswer(this)">Why would I need to analyze email headers?</div>
+                <div class="faq-answer">Analyzing email headers can help users identify the source of an email, verify its authenticity, diagnose delivery issues, detect spam or phishing attempts, and understand the routing path of the email.</div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question" onclick="toggleAnswer(this)">What information can I obtain from email headers?</div>
+                <div class="faq-answer">Email headers typically contain details such as sender and recipient addresses, server IP addresses, message routing information, timestamps, and message ID. Analyzing these elements can provide insights into the email's journey from sender to recipient.</div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function toggleAnswer(question) {
+            $(question).next().slideToggle();
+        }
+    </script>
+</body>
+</html>
